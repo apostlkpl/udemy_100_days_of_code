@@ -149,6 +149,7 @@ else:
         else:
             player_points += card_to_points(cc)
     if player_points > 21:
+        player_points = 0
         for cc in player_cards:
             if cc == 'Ace':
                 player_points += 1
