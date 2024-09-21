@@ -71,7 +71,7 @@ if dealer_win == 21:
     quit()
 
 print(f"\nYour cards: {player_cards[0]}, {player_cards[1]}")
-print(f"Dealer\'s first card: {dealer_cards[0]}\n")
+print(f"\nDealer\'s first card: {dealer_cards[0]}\n")
 
 while True:
     next_round = input("Type \'y\' to get another card, type \'n\' to pass: ")
