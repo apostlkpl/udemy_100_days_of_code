@@ -13,8 +13,8 @@ while True:
 tip = 0
 while True:
     try:
-        tip = input("How much tip would you like to give? 10%, 12%, or 15% ? ")
-        if int(tip) == 10 or int(tip) == 12 or int(tip) == 15:
+        tip = int(input("How much tip would you like to give? 10%, 12%, or 15% ? "))
+        if tip == 10 or tip == 12 or tip == 15:
             break
         else:
             print("Please enter one of the pre-defined amounts")
